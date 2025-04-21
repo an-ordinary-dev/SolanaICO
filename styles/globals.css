@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom styles for the ICO dapp */
+.wallet-adapter-button {
+  background-color: #512da8 !important;
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  height: 40px !important;
+  padding: 0 24px !important;
+  border-radius: 8px !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.wallet-adapter-button:hover {
+  background-color: #4527a0 !important;
+}
+
+/* Wallet Modal Styles */
+.wallet-adapter-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  transition: opacity 150ms linear;
+  backdrop-filter: blur(4px);
+}
+
+.wallet-adapter-modal-wrapper {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.32) !important;
+  background-color: #1a1f2e !important;
+  border-radius: 16px !important;
+  max-width: 400px !important;
+  padding: 24px !important;
+}
+
+.wallet-adapter-modal-title {
+  color: white !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  margin: 0 0 16px !important;
+  text-align: center !important;
+}
+
+.wallet-adapter-modal-list {
+  margin: 0 0 12px !important;
+  padding: 0 !important;
+  width: 100% !important;
+  list-style: none !important;
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button {
+  background-color: #2a3146 !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  font-size: 16px !important;
+  height: 48px !important;
+  margin: 8px 0 !important;
+  padding: 0 16px !important;
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button:hover {
+  background-color: #3a4156 !important;
+  transform: translateY(-1px) !important;
+}
+
+.wallet-adapter-modal-list-more {
+  color: #6b7280 !important;
+  cursor: pointer !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  margin-top: 8px !important;
+  text-align: center !important;
+  transition: color 150ms linear !important;
+}
+
+.wallet-adapter-modal-list-more:hover {
+  color: white !important;
+}
+
+.wallet-adapter-modal-close-button {
+  position: absolute !important;
+  right: 16px !important;
+  top: 16px !important;
+  color: #6b7280 !important;
+  cursor: pointer !important;
+  padding: 8px !important;
+  border-radius: 50% !important;
+  transition: all 150ms linear !important;
+}
+
+.wallet-adapter-modal-close-button:hover {
+  color: white !important;
+  background-color: rgba(107, 114, 128, 0.1) !important;
+}
+
+/* Wallet Button Icon Styles */
+.wallet-adapter-button-start-icon {
+  margin-right: 12px !important;
+}
+
