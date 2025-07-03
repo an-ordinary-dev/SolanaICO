@@ -1,12 +1,20 @@
-Here's your **clean** README file with **Byteory.com** branding, referencing **crypto.byteory.com**, and **removing all mentions** of previous authors, links, and references.
+# Solana SPL Token ICO DApp
+
+🚀 Build and deploy a **Solana SPL Token ICO DApp** with the **Anchor Framework, Rust, and Next.js**! This project showcases the full process of launching an **Initial Coin Offering (ICO)** on the Solana blockchain, allowing seamless token integration with a modern Web3 DApp.
 
 ---
 
-# Solana SPL Token ICO DApp  
+## ⚠️ **IMPORTANT DISCLAIMER**
 
-Developed by **Byteory.com** | Part of **[crypto.byteory.com](https://crypto.byteory.com)** Crypto Portfolio  
+**This smart contract has NOT been audited by any security firm or third party. Use at your own risk.**
 
-🚀 Build and deploy a **Solana SPL Token ICO DApp** with the **Anchor Framework, Rust, and Next.js**! This project showcases the full process of launching an **Initial Coin Offering (ICO)** on the Solana blockchain, allowing seamless token integration with a modern Web3 DApp.
+- The contract is provided "as is" without any warranties
+- The developers are not responsible for any financial losses, bugs, or security vulnerabilities
+- This is experimental software and should not be used with real funds without thorough testing
+- Always conduct your own security review before deploying to mainnet
+- Consider having the contract professionally audited before any production use
+
+**By using this code, you acknowledge and accept all risks associated with unaudited smart contracts.**
 
 ---
 
@@ -31,7 +39,7 @@ This project is perfect for blockchain enthusiasts and developers looking to exp
 
 ## 🏗️ Project Overview  
 
-This ICO project, developed by **Byteory.com**, enables seamless token presales and integration with **Solana wallets**, ensuring a **fast, secure, and scalable** fundraising process.  
+This ICO project enables seamless token presales and integration with **Solana wallets**, ensuring a **fast, secure, and scalable** fundraising process.  
 
 ---
 
@@ -41,8 +49,8 @@ Follow these steps to run the project on your system and install the necessary d
 
 ### 📥 Clone the Starter Project  
 ```bash
-git clone <REPO_URL>
-cd solana-ico-dapp
+git clone https://github.com/an-ordinary-dev/SolanaICO.git
+cd solanaICO
 ```
 
 ### 🛠️ Install Requirements  
@@ -72,39 +80,30 @@ The project will run at `http://localhost:3000/`
 
 ---
 
-## 💾 Final Code & Setup Guide  
-
-If you are using the **final source code**, follow these additional steps:  
-
-### 📥 **Download Final Source Code**  
-🔗 [Get the Final Code](https://crypto.byteory.com)  
+## 🎰 Testing & Development
 
 ### 🚀 **Use Solana Playground for Testing**  
 🔗 [Solana Playground](https://beta.solpg.io/)  
 
 ---
 
-## 🎰 Part of Crypto.Byteory.com  
-
-This **Solana SPL Token ICO DApp** is part of our growing crypto ecosystem at **[crypto.byteory.com](https://crypto.byteory.com)**, integrating blockchain solutions for **decentralized finance and digital assets**.  
-
-If you’re interested in **collaborating, investing, or learning more**, visit **[Byteory.com](https://byteory.com)**.  
-
----
-
 ## 🔗 Important Links  
 
-- 🌐 **Byteory.com** → [Visit Website](https://byteory.com)  
 - 💰 **Free Solana Test Faucets** → [Get Test SOL](https://beta.solpg.io/)  
 
 ---
 
-## 👨‍💻 Authors & Contributors  
+## ⚠️ **SECURITY REMINDER**
 
-- 🚀 **Byteory.com Team**  
+**Before deploying to mainnet:**
+- Conduct thorough testing on devnet
+- Consider professional security audits
+- Review all code thoroughly
+- Test with small amounts first
+- Understand all risks involved
 
-For any support or collaboration, feel free to reach out at **support@byteory.com**  
+**This is educational software - use responsibly!**
 
 ---
 
-🔹 **Developed by Byteory.com** | 🚀 **Building the Future of Web3 & Crypto**
+🔹 **Educational Project** | 🚀 **Building the Future of Web3 & Crypto**
